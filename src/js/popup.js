@@ -4,5 +4,5 @@ function receiveMessage(event) {
     chrome.tabs.create({ url: event.data.url });
   }
 }
-chrome.browserAction.setIcon({path: '/img/icon_close_48.png'});
-chrome.browserAction.setBadgeText({text: '' });
+chrome.action.setIcon({path: '/img/icon_close_48.png'});
+chrome.action.setBadgeText({text: '' });
